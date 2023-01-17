@@ -1,1 +1,51 @@
-/* Aquí va el CSS */
+.carta{
+    position: relative;
+    float: left;
+    min-width: 300px;
+    min-height: 500px;
+    margin-right: 10px;
+    border-radius: 5%;
+    border: 4px solid yellow;
+}
+.planta{
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(16, 117, 16) 10%, rgba(0,255,51,1) 100%);
+}
+.fuego{
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(139, 21, 21) 10%, rgba(252,176,69,1) 100%);}
+.agua{
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 10%, rgba(0,212,255,1) 100%);
+}
+.electrico{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(138, 134, 16) 10%, rgba(254,251,17,1) 100%);}
+.cabecera{
+    padding: 8%;
+}
+.nombre{
+    margin-left: 0px;
+}
+.vida{
+    margin-left: 120px;
+}
+.imagen{
+    border: 1px solid rgb(0, 0, 0);;
+    margin: 10px;
+    padding-top: 10%;
+    background-image: url(./img/pokemon-background.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.pokemon{
+    width: 300px;
+    height: 250px;
+}
+.habilidad{    
+    float:left;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 25px;
+}
